@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+Can a Java class extend multiple classes?	No — only single class inheritance.	java-oop
+Can a class implement multiple interfaces?	Yes.	java-oop
+private vs protected?	private: same class; protected: package + subclasses.	java-oop
+Why override equals and hashCode together?	Hash-based collections require the equals/hashCode contract.	java-oop
+Purpose of @Override?	Compile-time verification that a method overrides a parent/interface method.	java-oop
+final class meaning?	The class cannot be subclassed.	java-oop
+What is polymorphism in Java OOP?	Calling overridden methods via a base type reference (dynamic dispatch).	java-oop
+Composition means?	A class has-a reference to another object rather than is-a via extends.	java-oop
+Abstract class can have state?	Yes — fields and constructors are allowed.	java-oop
+Multiple inheritance of classes allowed?	No.	java-oop

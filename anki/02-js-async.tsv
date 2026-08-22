@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+Give examples of microtasks vs macrotasks.	Microtasks: Promise then/await, queueMicrotask. Macrotasks: setTimeout, setInterval, many I/O callbacks.	js-async event-loop
+In what order do sync logs, Promise.then, and setTimeout(0) run?	Synchronous first, then microtasks (Promise), then macrotasks (timeout).	js-async event-loop
+What does an async function always return?	A Promise.	js-async async-await
+How do you run two independent async operations concurrently?	Start both without awaiting sequentially, then await Promise.all([…]).	js-async promises
+What happens when one Promise in Promise.all rejects?	Promise.all rejects with that error (fail fast).	js-async promises
+How do you handle errors with async/await?	try/catch around awaited calls, or .catch on the returned Promise.	js-async errors
+Is JavaScript parallel on the main thread?	No — concurrent via the event loop; parallelism needs Workers/worker threads.	js-async concurrency
+What is a floating Promise?	A Promise that is not awaited or given a .catch — rejections can be silent.	js-async errors
+What does await do with a non-Promise value?	Treats it as already fulfilled with that value.	js-async async-await
+Why can async code still freeze the UI?	Long synchronous CPU work blocks the call stack/event loop.	js-async event-loop

@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+Why use button instead of div with onclick?	Native focus, keyboard support, and semantics for assistive technologies.	html-a11y
+What does label for= do?	Associates the label with an input id so clicking the label focuses/activates it.	html-a11y
+First rule of ARIA?	Prefer native HTML elements; only add ARIA when necessary.	html-a11y
+alt text for decorative images?	Use empty alt="" so screen readers skip them.	html-a11y
+What is a focus trap?	Keeping keyboard focus inside a dialog until it is closed.	html-a11y
+Name the four WCAG principles.	Perceivable, Operable, Understandable, Robust.	html-a11y
+Purpose of the main landmark?	Marks primary page content for navigation/skip links and AT.	html-a11y
+Why keep visible focus styles?	Keyboard users must see which element is focused.	html-a11y
+When use aria-live?	To announce dynamic updates like errors or toasts to screen readers.	html-a11y
+Semantic pattern for a nav list?	nav containing ul/li/a links.	html-a11y

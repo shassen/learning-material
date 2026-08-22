@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+List the seven JavaScript primitive types.	string, number, bigint, boolean, undefined, symbol, null.	js-core primitives
+What is the Temporal Dead Zone (TDZ)?	The period between entering a scope and initializing a let/const binding; accessing it throws ReferenceError.	js-core scope
+How does var scope differ from let/const?	var is function-scoped; let/const are block-scoped.	js-core scope
+Does const make objects immutable?	No. Only the binding is fixed; object properties can still change.	js-core const
+What is a closure?	A function that retains access to its outer lexical environment after the outer function returns.	js-core closures
+Why prefer === over ==?	=== does not coerce types; == does and can be surprising.	js-core equality
+How do arrow functions handle this?	Lexically — they inherit this from the enclosing scope and have no own this.	js-core this
+What does typeof null return?	object (a historical language quirk).	js-core typeof
+What does typeof NaN return?	number.	js-core typeof
+Why does var + setTimeout in a loop print the same final index?	var is function-scoped so all callbacks share one i; use let or capture per iteration.	js-core closures

@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+What is pom.xml?	Maven project file listing coordinates, dependencies, and plugins.	java-ecosystem
+Maven command to run unit tests?	mvn test	java-ecosystem
+JUnit 5 test annotation?	@Test	java-ecosystem
+What is dependency injection?	The container provides a class's dependencies instead of the class constructing them.	java-ecosystem
+Prefer constructor or field injection?	Constructor injection.	java-ecosystem
+What is a Spring Boot starter?	A dependency set with auto-configuration for a feature area.	java-ecosystem
+What does @RestController imply?	A controller whose return values go to the response body (often JSON).	java-ecosystem
+Maven package vs install?	package builds the artifact; install adds it to the local repository.	java-ecosystem
+What is a Spring bean?	An object managed by the Spring IoC container.	java-ecosystem
+Why write automated tests?	Catch regressions quickly and document expected behavior.	java-ecosystem

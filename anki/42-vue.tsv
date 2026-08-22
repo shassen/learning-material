@@ -1,0 +1,16 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+What is a Vue SFC?	A Single-File Component (.vue) with template, script, and style.	vue
+ref vs reactive?	ref wraps a value (.value in script); reactive makes an object deeply reactive.	vue
+React useState maps to what in Vue?	ref or reactive.	vue
+React useEffect rough Vue equivalents?	watch, watchEffect, and lifecycle hooks like onMounted.	vue
+What is Pinia?	The official Vue state-management library.	vue
+v-if vs v-show?	v-if creates/destroys; v-show toggles CSS display.	vue
+Why provide :key with v-for?	Gives stable identity so Vue can reuse DOM correctly.	vue
+How does a child talk to a parent?	By emitting events (props down, events up).	vue
+What does RouterView do?	Renders the component matched by the current route.	vue
+What does storeToRefs do?	Lets you destructure store state without losing reactivity.	vue
+Composition API vs Options API?	Composition API organizes logic by concern with functions; Options API groups by option keys — Composition is the modern default.	vue
+What is provide/inject?	Ancestor-to-descendant dependency passing similar to React context.	vue

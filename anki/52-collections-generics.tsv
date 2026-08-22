@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+Default List implementation choice?	ArrayList for most use cases.	java-collections
+HashMap average get complexity?	O(1).	java-collections
+TreeMap key order?	Sorted by natural order or a Comparator.	java-collections
+What is type erasure?	Generic type parameters are removed at runtime.	java-collections
+PECS stands for?	Producer Extends, Consumer Super.	java-collections
+Why not List of int?	Generics need reference types; use List of Integer.	java-collections
+Set uniqueness?	A Set does not allow duplicate elements.	java-collections
+LinkedHashMap iteration order?	Insertion order (or access order if configured).	java-collections
+Map.merge used for?	Insert or combine an existing value with a remapping function.	java-collections
+ConcurrentModificationException often means?	Collection structurally modified during fail-fast iteration.	java-collections

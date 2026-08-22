@@ -1,0 +1,17 @@
+{
+  "name": "learning-js-ts",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run src",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "test:exercises": "vitest run exercises",
+    "test:all": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  }
+}

@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+What is utility-first CSS?	Building UI by composing small single-purpose classes.	tailwind
+Mobile-first breakpoint example?	Write base styles, then md: or lg: enhancements.	tailwind
+Hover variant syntax?	hover: followed by a utility class.	tailwind
+Why extract components in Tailwind?	Reuse repeated combinations of utilities.	tailwind
+content config purpose?	Tell Tailwind which files to scan for class names.	tailwind
+Dark mode variant prefix?	dark:	tailwind
+Can you still write custom CSS?	Yes when utilities are insufficient.	tailwind
+Accessibility with Tailwind?	Still required — contrast and semantics are your responsibility.	tailwind
+Responsive prefix examples?	sm:, md:, lg:, xl:	tailwind
+Common helper for conditional classes?	clsx or cn utilities.	tailwind

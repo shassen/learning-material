@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+What does Big-O describe?	An upper bound on how an algorithm's cost grows as input size grows.	big-o
+Time complexity of binary search?	O(log n).	big-o
+Typical complexity of nested loops each over n?	O(n²).	big-o
+Time complexity of merge sort?	O(n log n).	big-o
+What does amortized O(1) mean?	Average cost per operation over a sequence is constant (e.g. dynamic array append).	big-o
+Space cost of recursion depth n?	O(n) call-stack space.	big-o
+Simplify O(3n + 5).	O(n).	big-o
+Hash map average vs worst-case lookup?	Average O(1); worst O(n) with many collisions.	big-o
+Which grows faster: O(n) or O(n log n)?	O(n log n).	big-o
+Common name for O(n log n)?	Linearithmic.	big-o

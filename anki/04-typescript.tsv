@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+What is structural typing?	Type compatibility based on shape (properties), not nominal type names.	typescript
+When might you prefer type over interface?	For unions, tuples, mapped/conditional types, or non-object aliases.	typescript
+What is a discriminated union?	A union of object types sharing a common literal tag field used for narrowing.	typescript
+What does Partial<T> do?	Makes all properties of T optional.	typescript utilities
+unknown vs any?	unknown requires narrowing before use; any turns off type checking.	typescript
+What is a generic constraint?	T extends Bound — restricts which types may be substituted for T.	typescript generics
+Why enable strict mode?	Enables stronger checks (including stricter null and no implicit any).	typescript
+What is the never type for?	Values that never occur; useful for exhaustive checks.	typescript
+Does TypeScript exist at runtime?	No — types are erased when compiling to JavaScript.	typescript
+What is declaration merging?	Multiple interface declarations with the same name combine into one.	typescript

@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+GraphQL Query vs Mutation?	Query reads data; Mutation writes/changes data.	graphql
+What is a resolver?	A function that returns the value for a schema field.	graphql
+Why use DataLoader?	Batch and cache loads to prevent N+1 queries.	graphql
+What is SDL?	Schema Definition Language.	graphql
+REST over-fetching means?	Response includes more fields than the client needs.	graphql
+Under-fetching means?	Client needs multiple requests to build one view.	graphql
+Non-null in GraphQL SDL?	Exclamation mark !	graphql
+Authz challenge in GraphQL?	Enforce permissions per field/object, not only at the HTTP route.	graphql
+Common GraphQL HTTP endpoint?	POST /graphql with a query document.	graphql
+Why is HTTP caching harder?	Queries vary widely and often use POST.	graphql

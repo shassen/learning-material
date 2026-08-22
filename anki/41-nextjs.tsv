@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+Default component type in App Router?	Server Component.	nextjs
+How opt into a Client Component?	Add 'use client' at the top of the file.	nextjs
+layout.tsx purpose?	Shared UI wrapper for a route segment and its children.	nextjs
+Where define Route Handlers?	route.ts/js in the app directory.	nextjs
+fetch revalidate option means?	Time-based revalidation of cached data.	nextjs
+Why fetch secrets on the server?	Keep credentials out of the browser bundle.	nextjs
+Next Link benefit?	Client-side navigation with prefetching.	nextjs
+loading.tsx provides?	Immediate loading UI via Suspense.	nextjs
+Can Server Components use useState?	No.	nextjs
+Pages Router vs App Router?	Legacy pages/ vs modern app/ with RSC.	nextjs

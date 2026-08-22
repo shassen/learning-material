@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+Runnable vs Callable?	Callable returns a value and may throw checked exceptions.	java-concurrency
+Why ExecutorService?	Manages a pool of threads for tasks.	java-concurrency
+What is a race condition?	Behavior depends on timing between threads.	java-concurrency
+What does synchronized provide?	Mutual exclusion and visibility for the critical section.	java-concurrency
+Is i++ atomic?	No.	java-concurrency
+ConcurrentHashMap purpose?	Thread-safe map designed for concurrent access.	java-concurrency
+What is a Future?	A handle to the result of an asynchronous computation.	java-concurrency
+What is deadlock?	Threads blocked forever waiting on each other's locks.	java-concurrency
+volatile guarantees?	Visibility of that field's writes — not atomic compound actions.	java-concurrency
+Prefer raw Thread or executors?	Prefer executors / java.util.concurrent utilities.	java-concurrency

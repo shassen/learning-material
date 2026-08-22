@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+What is the prototype chain?	The linked series of objects used for property lookup, ending at null.	js-objects prototypes
+Where do methods defined in a class body live?	On ClassName.prototype (typically).	js-objects class
+What does Object.create(proto) do?	Creates a new object whose [[Prototype]] is proto.	js-objects prototypes
+Are JavaScript classes the same as Java classes?	No — JS classes are primarily syntax over prototypes (plus features like private fields).	js-objects class
+How do #private fields differ from _underscore convention?	# fields are inaccessible outside the class; underscore is only a convention.	js-objects class
+Why prefer composition over deep inheritance?	Avoids brittle hierarchies; clearer, more flexible dependencies.	js-objects design
+Object.keys vs for…in?	Object.keys: own enumerable keys. for…in: enumerable keys including inherited.	js-objects
+What is super used for?	Calling the parent constructor or parent methods in a subclass.	js-objects class
+Safer alternative to obj.hasOwnProperty(key)?	Object.hasOwn(obj, key).	js-objects
+Why use Object.create(null)?	Create a dictionary object with no inherited properties.	js-objects

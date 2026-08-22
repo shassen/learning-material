@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+JDK vs JRE vs JVM?	JDK builds apps; JRE runs them; JVM executes bytecode.	java-fundamentals
+Java program entry method signature?	public static void main(String[] args)	java-fundamentals
+Is String mutable in Java?	No — String is immutable.	java-fundamentals
+How do you compare String contents?	Use equals (not ==).	java-fundamentals
+What is autoboxing?	Automatic conversion between primitives and wrapper types.	java-fundamentals
+Do local variables get default values?	No — they must be assigned before use.	java-fundamentals
+Array length syntax?	arr.length (a field).	java-fundamentals
+Why use StringBuilder?	Efficient mutable string concatenation.	java-fundamentals
+Public class file naming rule?	File name must match the public class name.	java-fundamentals
+Name four Java primitives.	e.g. int, boolean, double, char (also byte short long float).	java-fundamentals

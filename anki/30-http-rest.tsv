@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+Which HTTP methods are typically idempotent?	GET, PUT, DELETE (POST generally is not).	http-rest
+401 vs 403?	401 means unauthenticated; 403 means forbidden.	http-rest
+HTTP 201 means?	Created.	http-rest
+What is CORS?	Browser policy controlling cross-origin HTTP access.	http-rest
+What is a safe HTTP method?	A method that should not change server state (e.g. GET).	http-rest
+Why use an Idempotency-Key?	To make retries safe without duplicating side effects.	http-rest
+HTTP 429 means?	Too Many Requests — rate limited.	http-rest
+REST statelessness means?	Each request contains the info needed to process it.	http-rest
+PATCH vs PUT?	PATCH applies a partial update; PUT replaces the resource.	http-rest
+HTTP 204 means?	Success with no response body.	http-rest

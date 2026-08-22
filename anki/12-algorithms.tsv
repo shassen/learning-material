@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+When is sliding window useful?	Contiguous subarray/substring problems with a moving range.	algorithms
+Prerequisite for classic binary search?	Sorted input or a monotonic predicate.	algorithms
+BFS or DFS for unweighted shortest path?	BFS.	algorithms
+How do you avoid infinite DFS on cyclic graphs?	Mark nodes visited.	algorithms
+Two ingredients of dynamic programming?	Overlapping subproblems and optimal substructure.	algorithms
+What is a stable sort?	Equal elements keep their original relative order.	algorithms
+Backtracking pattern in three steps?	Choose, explore, un-choose.	algorithms
+Typical two-pointer pass complexity?	O(n) time (after sorting if required).	algorithms
+Risk of array.shift for BFS queue in JS?	shift is O(n); can make BFS O(n²).	algorithms
+Pairwise comparison of all elements complexity?	O(n²).	algorithms

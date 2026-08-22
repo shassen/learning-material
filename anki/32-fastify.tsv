@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+Fastify headline features vs Express?	JSON Schema validation/serialization and plugin encapsulation; high performance.	fastify
+What does fastify.register do?	Loads a plugin inside an encapsulated context.	fastify
+Why declare JSON Schema?	Validate inputs and speed up response serialization.	fastify
+What is a Fastify hook?	A lifecycle callback around request handling.	fastify
+decorate purpose?	Attach shared helpers onto the Fastify instance.	fastify
+Built-in logger?	Yes — Pino-based logger.	fastify
+Encapsulation benefit?	Limits leakage of decorators/routes across modules.	fastify
+preHandler common use?	Auth or validation before the main handler.	fastify
+Are async handlers first-class?	Yes.	fastify
+Drop-in Express middleware?	Not always — APIs differ; migrate carefully.	fastify

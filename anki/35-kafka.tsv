@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+What is a Kafka topic?	A named stream of records.	kafka
+What is a partition?	An ordered append-only log that is part of a topic.	kafka
+What is a consumer offset?	The consumer's position within a partition.	kafka
+Consumer group purpose?	Share partition work across members for scale.	kafka
+At-least-once delivery means?	Messages may be redelivered; duplicates possible.	kafka
+Why idempotent consumers?	Correctly handle duplicate deliveries.	kafka
+Can multiple groups read one topic?	Yes — independent consumption/fan-out.	kafka
+Ordering guarantees?	Per partition, not across the entire topic.	kafka
+Producer key useful for?	Sending related records to the same partition.	kafka
+Kafka vs simple queue?	Durable distributed log with replay and multi-group fan-out.	kafka

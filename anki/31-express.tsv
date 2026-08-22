@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+What is Express middleware?	A function in a pipeline that can read/write req/res and call next.	express
+Why does middleware order matter?	Earlier functions run first and can block or alter later handlers.	express
+How mount a sub-router?	app.use('/api', router)	express
+express.json purpose?	Parse JSON request bodies into req.body.	express
+Error middleware arity?	Four arguments: err, req, res, next.	express
+What does next() do?	Passes control to the next middleware/route.	express
+Static files helper?	express.static	express
+Common auth approach?	Middleware that verifies credentials/token then calls next.	express
+Risk of not forwarding async errors?	Hung requests or process crashes/unhandled rejections.	express
+How send JSON response?	res.json(...)	express

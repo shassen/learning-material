@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+What does prisma generate create?	The typed Prisma Client from schema.prisma.	prisma
+What is a Prisma migration?	A versioned database schema change.	prisma
+How fetch users with posts in one go?	findMany with include: { posts: true }.	prisma
+What is the N+1 problem?	One query for a list plus one query per item for relations.	prisma
+How do multi-step atomic writes?	prisma.$transaction.	prisma
+What does upsert do?	Updates a row if it exists, otherwise creates it.	prisma
+@unique means?	Database-level uniqueness constraint.	prisma
+Typical Prisma schema filename?	schema.prisma	prisma
+include purpose?	Eagerly load related records.	prisma
+Why is Prisma Client typed?	So invalid queries/fields fail at compile time.	prisma

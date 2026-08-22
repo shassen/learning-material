@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+What is CSS specificity?	A score determining which competing rule wins when selectors match the same element.	css
+Flexbox vs Grid in one line?	Flexbox is one-dimensional; Grid is two-dimensional.	css
+What does box-sizing: border-box do?	Includes padding and border inside the declared width/height.	css
+Purpose of CSS custom properties?	Reusable, cascade-aware variables for theming and consistency.	css
+justify-content vs align-items in a row flex container?	justify-content aligns on the main axis; align-items on the cross axis.	css
+What is margin collapse?	Adjacent vertical margins combine into a single margin.	css
+What is a mobile-first media query approach?	Base styles for small screens; enhance with min-width queries.	css
+Why avoid !important?	It overrides normal cascade and makes later changes harder.	css
+What does the fr unit mean in Grid?	A fraction of the remaining free space.	css
+How to center with Flexbox?	display:flex; justify-content:center; align-items:center on the parent.	css

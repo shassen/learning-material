@@ -1,0 +1,19 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+Before coding in an interview you should?	Clarify constraints, examples, and edge cases.	interview
+Always state what for algorithms?	Time and space Big-O.	interview
+401 vs 403 in one line?	401 unauthenticated; 403 authenticated but not allowed.	interview
+Classic fix for ORM N+1?	Eager load/include or batch with DataLoader.	interview
+Event loop order: timeout(0) vs Promise.then?	Promise microtask runs before setTimeout macrotask.	interview
+Vue equivalent of useState?	ref or reactive.	interview
+Java string content compare?	equals, not ==.	interview
+Kafka ordering guarantee scope?	Within a single partition.	interview
+Next.js default component type (App Router)?	Server Component.	interview
+JWT payload encrypted by default?	No.	interview
+Hash map average lookup complexity?	O(1).	interview
+Binary search complexity?	O(log n).	interview
+ACID stands for?	Atomicity, Consistency, Isolation, Durability.	interview
+TDZ means?	Temporal Dead Zone for let/const before initialization.	interview
+SOLID S stands for?	Single Responsibility Principle.	interview

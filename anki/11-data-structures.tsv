@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+Array random access complexity?	O(1).	data-structures
+Stack vs queue ordering?	Stack is LIFO; queue is FIFO.	data-structures
+Hash map average insert/lookup?	O(1).	data-structures
+When is BST operation O(n)?	When the tree is skewed/unbalanced.	data-structures
+Heap insert complexity?	O(log n).	data-structures
+Which structure for BFS?	Queue.	data-structures
+Which structure for iterative DFS?	Stack (or the call stack via recursion).	data-structures
+Adjacency list space complexity roughly?	O(V + E).	data-structures
+Why use Map instead of a plain object?	Any key types, no prototype key collisions, clearer intent.	data-structures
+What is a priority queue used for?	Repeatedly extracting the current min/max efficiently.	data-structures

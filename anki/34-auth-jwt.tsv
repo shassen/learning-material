@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+Authentication vs authorization?	Authn identifies the user; authz decides permissions.	auth-jwt
+Three JWT parts?	header, payload, signature.	auth-jwt
+Is JWT payload encrypted by default?	No — it is only Base64url-encoded and signed.	auth-jwt
+Why short-lived access tokens?	Reduce the window of abuse if a token is stolen.	auth-jwt
+Refresh token purpose?	Mint new access tokens without full login; can be revoked.	auth-jwt
+httpOnly cookie benefit?	JavaScript cannot read it, mitigating XSS token theft.	auth-jwt
+Cookie auth CSRF concern?	Browser sends cookies automatically on requests.	auth-jwt
+HS256 vs RS256?	Shared secret vs asymmetric public/private keys.	auth-jwt
+Besides signature, verify what often?	exp (and often iss/aud).	auth-jwt
+Session store advantage?	Easy server-side invalidation/revocation.	auth-jwt

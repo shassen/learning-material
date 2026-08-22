@@ -1,0 +1,35 @@
+# Node / JS / TS
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+.npm/
+.vite/
+
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+
+# Vue / frontend
+.DS_Store
+*.local
+.env
+.env.*
+!.env.example
+
+# Anki / editors
+*.anki
+*.apkg
+.vscode/
+*.swp
+*~
+
+# OS
+Thumbs.db

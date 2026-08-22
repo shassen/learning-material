@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+Name the four OOP pillars.	Encapsulation, Abstraction, Inheritance, Polymorphism.	oop
+What does Single Responsibility mean?	A module/class should have one reason to change.	oop solid
+State the Liskov Substitution Principle.	Subtypes must be usable anywhere the base type is expected without breaking correctness.	oop solid
+What is Dependency Inversion?	High-level modules depend on abstractions, not concrete low-level details.	oop solid
+Composition vs inheritance?	Composition uses has-a relationships; inheritance uses is-a subclassing.	oop
+What does Interface Segregation discourage?	Fat interfaces that force clients to depend on unused methods.	oop solid
+Technique for Open/Closed Principle?	Extend via new implementations/strategies without modifying existing core code.	oop solid
+Give a polymorphism example.	Multiple classes implementing the same interface method differently.	oop
+Why can Singleton be harmful?	It acts like hidden global mutable state and hurts testing.	oop
+Encapsulation vs abstraction?	Encapsulation hides internals; abstraction models essential interfaces/concepts.	oop

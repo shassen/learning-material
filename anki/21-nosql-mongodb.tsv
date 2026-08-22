@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+MongoDB stores what kind of records?	BSON documents in collections.	mongodb
+Embed vs reference?	Embed co-located bounded data; reference shared or independently queried data.	mongodb
+Default unique id field?	_id	mongodb
+What is the aggregation pipeline?	A multi-stage transformation framework for documents.	mongodb
+Are single-document writes atomic?	Yes.	mongodb
+How enforce unique emails?	Create a unique index on the email field.	mongodb
+What is BSON?	Binary JSON format used by MongoDB.	mongodb
+Why use projections?	Return only required fields to reduce IO/payload.	mongodb
+Sharding is for?	Horizontally partitioning data across machines.	mongodb
+When might SQL be a better fit?	Strong relational constraints and complex joins/reporting.	mongodb

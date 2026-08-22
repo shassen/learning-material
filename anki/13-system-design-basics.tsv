@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+Horizontal vs vertical scaling?	Horizontal adds machines; vertical grows one machine.	system-design
+What does a load balancer do?	Distributes requests across multiple instances.	system-design
+What is cache-aside?	App checks cache; on miss reads DB and fills cache.	system-design
+CAP theorem tradeoff under partition?	Choose between consistency and availability.	system-design
+Why introduce a message queue?	Decouple services, buffer load, process asynchronously, retry.	system-design
+Benefit of stateless app servers?	Any instance can handle any request — easier horizontal scale.	system-design
+Idempotency key purpose?	Make retries safe for creates/payments.	system-design
+Purpose of read replicas?	Scale read traffic (with replication lag caveats).	system-design
+CDN purpose?	Serve cached static content near users.	system-design
+First step in a system design interview?	Clarify requirements and constraints.	system-design

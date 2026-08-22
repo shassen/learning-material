@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+INNER JOIN vs LEFT JOIN?	INNER returns matches only; LEFT returns all left rows plus matches.	sql
+ACID stands for?	Atomicity, Consistency, Isolation, Durability.	sql
+WHERE vs HAVING?	WHERE filters rows before aggregation; HAVING filters after GROUP BY.	sql
+Why create an index?	Speed up lookups/filters/joins; trade off write cost and space.	sql
+Primary key vs foreign key?	PK uniquely identifies a row; FK references a PK elsewhere.	sql
+What does GROUP BY do?	Collapses rows that share key values so aggregates can be computed.	sql
+What is EXPLAIN for?	Shows the database's planned execution strategy for a query.	sql
+What is a transaction?	A unit of work that commits or rolls back as a whole.	sql
+Covering index meaning?	An index that contains all columns needed for a query.	sql
+Normalization aims to?	Reduce redundancy and update anomalies in relational design.	sql

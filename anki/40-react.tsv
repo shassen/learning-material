@@ -1,0 +1,14 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#tags column:3
+What is a controlled input in React?	An input whose value is driven by React state.	react
+Empty useEffect dependency array means?	Run on mount and cleanup on unmount.	react
+Why list keys?	Stable identity for correct reconciliation.	react
+Are props mutable?	No — treat them as read-only.	react
+useRef vs useState?	Updating a ref does not trigger a re-render.	react
+What is a stale closure?	A function capturing outdated state/props from a previous render.	react
+Context purpose?	Share data through the tree without prop drilling.	react
+Why functional setState updater?	Compute next state from previous state reliably.	react
+useEffect cleanup for?	Unsubscribe, abort fetch, clear timers.	react
+Pure render meaning?	Same inputs produce same UI; no side effects while rendering.	react
